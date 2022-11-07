@@ -3,6 +3,8 @@ import React, { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { LinearGradient } from "expo-linear-gradient";
 
+import Logo from "../assets/codeGame.svg";
+
 const Preload = () => {
   const navigation = useNavigation();
 
@@ -19,7 +21,10 @@ const Preload = () => {
       start={{ x: 0, y: 0 }}
       end={{ x: 1, y: 1 }}
     >
-      <Text className="font-black text-2xl leading-7 text-white">CodeGame</Text>
+      <Logo width="100%" height={100} />
+      <Text className="font-black text-2xl leading-7 text-white pt-3.5">
+        CodeGame
+      </Text>
     </LinearGradient>
   );
 };
