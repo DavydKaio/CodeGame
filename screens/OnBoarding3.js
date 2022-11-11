@@ -23,7 +23,9 @@ const OnBoarding3 = () => {
             onPress={() => navigation.navigate("Login")}
             className="flex items-center justify-center w-full h-10 rounded-full bg-app-title-color"
           >
-            <Text className="text-base text-white font-semibold">Codar!</Text>
+            <Text className="text-base text-app-white font-semibold">
+              Codar!
+            </Text>
           </TouchableOpacity>
         </View>
 

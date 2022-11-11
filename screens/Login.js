@@ -22,13 +22,13 @@ const Login = () => {
       </Text>
 
       <TextInput
-        className="w-56 border-b border-b-app-title-color mt-9 text-white"
+        className="w-56 border-b border-b-app-title-color mt-9 text-app-white"
         placeholder="Email"
         placeholderTextColor={"#FFF"}
       />
       <View className="flex flex-row items-center justify-between w-56 border-b border-b-app-title-color mt-9">
         <TextInput
-          className="text-white"
+          className="text-app-white"
           placeholder="Senha"
           placeholderTextColor={"#FFF"}
         />
@@ -38,14 +38,14 @@ const Login = () => {
       </View>
 
       <TouchableOpacity className="flex flex-row justify-end w-56 mt-1">
-        <Text className="text-white text-xs">Esquecesse?</Text>
+        <Text className="text-app-white text-xs">Esquecesse?</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         onPress={() => navigation.navigate("LandingScreen")}
         className="flex items-center justify-center w-44 h-10 rounded-full bg-app-title-color mt-8"
       >
-        <Text className="text-base text-white font-semibold">Simbora</Text>
+        <Text className="text-base text-app-white font-semibold">Simbora</Text>
       </TouchableOpacity>
 
       <View className="mt-10">
@@ -59,7 +59,7 @@ const Login = () => {
           </TouchableOpacity>
         </View>
 
-        <Text className="text-white mt-4">Tem conta não?</Text>
+        <Text className="text-app-white mt-4">Tem conta não?</Text>
         <TouchableOpacity
           className="flex flex-row justify-center"
           onPress={() => navigation.navigate("CreateAccount")}

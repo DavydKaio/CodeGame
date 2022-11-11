@@ -17,7 +17,7 @@ const OnBoarding2 = () => {
         <Text className="text-2xl font-bold text-center w-48 text-app-title-color">
           Programe contra seus amigos!
         </Text>
-        <Text className="text-sm text-white text-center w-44 pt-2.5">
+        <Text className="text-sm text-app-white text-center w-44 pt-2.5">
           Adicione seus colegas de classe e os desafie.
         </Text>
 
@@ -26,7 +26,9 @@ const OnBoarding2 = () => {
             onPress={() => navigation.navigate("OnBoarding3")}
             className="flex items-center justify-center w-full h-10 rounded-full bg-app-title-color"
           >
-            <Text className="text-base text-white font-semibold">Próximo</Text>
+            <Text className="text-base text-app-white font-semibold">
+              Próximo
+            </Text>
           </TouchableOpacity>
         </View>
 
