@@ -11,6 +11,7 @@ import Login from "./screens/Login";
 import CreateAccount from "./screens/CreateAccount";
 import LandingScreen from "./screens/LandingScreen";
 import MenuPlayer from "./screens/MenuPlayer";
+import Duel from "./screens/Duel";
 
 const Stack = createNativeStackNavigator();
 
@@ -26,6 +27,7 @@ export default function App() {
         <Stack.Screen name="CreateAccount" component={CreateAccount} />
         <Stack.Screen name="LandingScreen" component={LandingScreen} />
         <Stack.Screen name="MenuPlayer" component={MenuPlayer} />
+        <Stack.Screen name="Duel" component={Duel} />
       </Stack.Navigator>
     </NavigationContainer>
   );

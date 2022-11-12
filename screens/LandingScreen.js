@@ -61,7 +61,10 @@ const LandingScreen = () => {
           Sozinho ou com amigos, quanto mais questões solucionar, maior será seu
           ranking
         </Text>
-        <TouchableOpacity className="flex items-center py-2 mt-3 rounded-full bg-app-title-color">
+        <TouchableOpacity
+          className="flex items-center py-2 mt-3 rounded-full bg-app-title-color"
+          onPress={() => navigation.navigate("Duel")}
+        >
           <Text className="font-bold text-app-white">Comece a Codar</Text>
         </TouchableOpacity>
       </View>
