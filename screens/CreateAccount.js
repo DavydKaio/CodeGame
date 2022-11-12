@@ -18,7 +18,7 @@ const CreateAccount = () => {
   return (
     <View className="flex-1 items-center justify-center bg-app-BG">
       <View className="w-64 mt-10">
-        <Text className="text-2xl font-bold text-app-title-color">
+        <Text className="text-xl font-bold text-app-title-color">
           Criar conta
         </Text>
         <Text className="text-app-white">

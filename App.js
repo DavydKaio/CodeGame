@@ -10,6 +10,7 @@ import OnBoarding3 from "./screens/OnBoarding3";
 import Login from "./screens/Login";
 import CreateAccount from "./screens/CreateAccount";
 import LandingScreen from "./screens/LandingScreen";
+import MenuPlayer from "./screens/MenuPlayer";
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,7 @@ export default function App() {
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="CreateAccount" component={CreateAccount} />
         <Stack.Screen name="LandingScreen" component={LandingScreen} />
+        <Stack.Screen name="MenuPlayer" component={MenuPlayer} />
       </Stack.Navigator>
     </NavigationContainer>
   );

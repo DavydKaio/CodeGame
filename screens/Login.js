@@ -17,7 +17,7 @@ const Login = () => {
 
   return (
     <View className="flex-1 items-center justify-center bg-app-BG">
-      <Text className="text-2xl font-bold text-app-title-color w-56">
+      <Text className="text-xl font-bold text-app-title-color w-56">
         Que bom te ver de novo!
       </Text>
 

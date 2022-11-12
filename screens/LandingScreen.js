@@ -3,7 +3,7 @@ import React, { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import CircularProgress from "react-native-circular-progress-indicator";
 
-import { Bars3Icon } from "react-native-heroicons/outline";
+import { Bars3BottomLeftIcon } from "react-native-heroicons/outline";
 import Player from "../assets/player1.svg";
 
 const LandingScreen = () => {
@@ -17,8 +17,8 @@ const LandingScreen = () => {
 
   return (
     <View className="flex-1 pt-12 px-5 bg-app-BG">
-      <TouchableOpacity>
-        <Bars3Icon width={24} height={24} color="#FA5075" />
+      <TouchableOpacity onPress={() => navigation.navigate("MenuPlayer")}>
+        <Bars3BottomLeftIcon width={24} height={24} color="#FA5075" />
       </TouchableOpacity>
 
       <View className="pt-6">

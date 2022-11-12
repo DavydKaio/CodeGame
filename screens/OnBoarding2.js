@@ -14,7 +14,7 @@ const OnBoarding2 = () => {
   return (
     <View className="flex-1 items-center justify-center bg-app-BG">
       <View className="flex-1 items-center justify-end h-screen w-52">
-        <Text className="text-2xl font-bold text-center w-48 text-app-title-color">
+        <Text className="text-xl font-bold text-center w-48 text-app-title-color">
           Programe contra seus amigos!
         </Text>
         <Text className="text-sm text-app-white text-center w-44 pt-2.5">

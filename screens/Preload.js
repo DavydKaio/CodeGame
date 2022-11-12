@@ -28,7 +28,7 @@ const Preload = () => {
       end={{ x: 1, y: 1 }}
     >
       <Logo width="100%" height={100} />
-      <Text className="font-black text-2xl leading-7 text-app-white pt-3.5">
+      <Text className="font-black text-xl leading-7 text-app-white pt-3.5">
         CodeGame
       </Text>
     </LinearGradient>

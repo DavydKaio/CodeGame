@@ -12,6 +12,9 @@ module.exports = {
       "app-dot": "#AF3851",
       "app-white": "#FFF",
       "app-bg-card": "#53183B",
+      "app-green": "#08F403",
+      "app-yellow": "#F4C73E",
+      "app-gray": "#808080",
     },
     fontSize: {
       sm: ["14px", "20px"],
