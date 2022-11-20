@@ -4,6 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import CircularProgress from "react-native-circular-progress-indicator";
 
 import { Bars3BottomLeftIcon } from "react-native-heroicons/outline";
+import { ArrowRightIcon } from "react-native-heroicons/outline";
 import Player from "../assets/player1.svg";
 
 const LandingScreen = () => {
@@ -54,13 +55,24 @@ const LandingScreen = () => {
       </View>
 
       <View className="mt-8">
-        <Text className="text-sm font-bold text-app-white">
-          Vença desafios e evolua
-        </Text>
-        <Text className="text-app-white">
-          Sozinho ou com amigos, quanto mais questões solucionar, maior será seu
-          ranking
-        </Text>
+        <TouchableOpacity
+          className="flex flex-row gap-2 items-center"
+          onPress={() => navigation.navigate("Battles")}
+        >
+          <View>
+            <Text className="text-sm font-bold text-app-white">
+              Vença desafios e evolua
+            </Text>
+            <Text className="text-app-white">
+              Sozinho ou com amigos, quanto mais questões solucionar, maior será
+              seu ranking
+            </Text>
+          </View>
+
+          <View className="pt-3">
+            <ArrowRightIcon width={20} height={20} color="#FA5075" />
+          </View>
+        </TouchableOpacity>
         <TouchableOpacity
           className="flex items-center py-2 mt-3 rounded-full bg-app-title-color"
           onPress={() => navigation.navigate("Duel")}
