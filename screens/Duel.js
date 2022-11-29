@@ -4,6 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import { ArrowLeftIcon } from "react-native-heroicons/outline";
 
 import Player from "../assets/player1.svg";
+import ChooseOponent from "./ChooseOponent";
 
 const Duel = () => {
   const navigation = useNavigation();
@@ -35,7 +36,7 @@ const Duel = () => {
             <Player width={80} height={80} fill="#FFF" />
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate(ChooseOponent)}>
           <View className="flex flex-row items-center justify-evenly bg-app-title-color w-36 h-40 rounded-lg">
             <Player width={50} height={50} fill="#FFF" />
             <Player width={50} height={50} fill="#FFF" />
