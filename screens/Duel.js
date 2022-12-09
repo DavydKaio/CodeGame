@@ -22,10 +22,10 @@ const Duel = () => {
       </TouchableOpacity>
 
       <View className="flex flex-col items-center w-full mt-32">
-        <Text className="text-xl2 font-black text-app-title-color mb-2">
+        <Text className="text-2xl font-black text-app-title-color mb-2">
           Escolha a modalidade
         </Text>
-        <Text className="text-app-white font-semibold">
+        <Text className="text-white font-semibold">
           Sozinho ou com amigos, o que vale é codar
         </Text>
       </View>

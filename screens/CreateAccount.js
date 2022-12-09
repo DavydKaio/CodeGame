@@ -18,60 +18,60 @@ const CreateAccount = () => {
   return (
     <View className="flex-1 items-center justify-center bg-app-BG">
       <View className="w-64 mt-10">
-        <Text className="text-xl font-bold text-app-title-color">
+        <Text className="text-2xl font-bold mb-2 text-app-title-color">
           Criar conta
         </Text>
-        <Text className="text-app-white">
+        <Text className="text-white">
           Informe seus dados e os dados da disciplina para ficar mais fácil de
           encontrar a galera.
         </Text>
 
         <TextInput
-          className="border-b border-b-app-title-color mt-9 text-app-white"
+          className="border-b border-b-app-title-color mt-7 text-white"
           placeholder="Nome"
           placeholderTextColor={"#FFF"}
         />
         <TextInput
-          className="border-b border-b-app-title-color mt-9 text-app-white"
+          className="border-b border-b-app-title-color mt-9 text-white"
           placeholder="Usuário"
           placeholderTextColor={"#FFF"}
         />
         <View className="flex flex-row gap-x-6">
           <TextInput
-            className="border-b border-b-app-title-color mt-9 text-app-white w-6"
+            className="border-b border-b-app-title-color mt-9 text-white w-6"
             value="+82"
           />
           <TextInput
-            className="border-b border-b-app-title-color mt-9 text-app-white w-52"
+            className="border-b border-b-app-title-color mt-9 text-white w-52"
             placeholder="Celular"
             placeholderTextColor={"#FFF"}
           />
         </View>
         <TextInput
-          className="border-b border-b-app-title-color mt-9 text-app-white"
+          className="border-b border-b-app-title-color mt-9 text-white"
           placeholder="Disciplina"
           placeholderTextColor={"#FFF"}
         />
         <View className="flex flex-row gap-x-8">
           <TextInput
-            className="border-b border-b-app-title-color mt-9 text-app-white w-28"
+            className="border-b border-b-app-title-color mt-9 text-white w-28"
             placeholder="Período"
             placeholderTextColor={"#FFF"}
           />
           <TextInput
-            className="border-b border-b-app-title-color mt-9 text-app-white w-28"
+            className="border-b border-b-app-title-color mt-9 text-white w-28"
             placeholder="Professor"
             placeholderTextColor={"#FFF"}
           />
         </View>
         <TextInput
-          className="border-b border-b-app-title-color mt-9 text-app-white"
+          className="border-b border-b-app-title-color mt-9 text-white"
           placeholder="Email"
           placeholderTextColor={"#FFF"}
         />
         <View className="flex flex-row items-center justify-between border-b border-b-app-title-color mt-9">
           <TextInput
-            className="text-app-white"
+            className="text-white"
             placeholder="Senha"
             placeholderTextColor={"#FFF"}
           />
@@ -81,7 +81,7 @@ const CreateAccount = () => {
         </View>
         <View className="flex flex-row items-center justify-between border-b border-b-app-title-color mt-9">
           <TextInput
-            className="text-app-white"
+            className="text-white"
             placeholder="Confirmar Senha"
             placeholderTextColor={"#FFF"}
           />
@@ -95,9 +95,7 @@ const CreateAccount = () => {
         onPress={() => navigation.navigate("LandingScreen")}
         className="flex items-center justify-center w-44 h-10 rounded-full bg-app-title-color mt-10"
       >
-        <Text className="text-base text-app-white font-semibold">
-          Cadastrar
-        </Text>
+        <Text className="text-base text-white font-semibold">Cadastrar</Text>
       </TouchableOpacity>
 
       <View className="flex items-center mt-6">
@@ -111,7 +109,7 @@ const CreateAccount = () => {
           </TouchableOpacity>
         </View>
 
-        <Text className="text-app-white mt-4">Oxe, já cadastrado?</Text>
+        <Text className="text-white mt-4">Oxe, já cadastrado?</Text>
         <TouchableOpacity
           className="flex flex-row justify-center"
           onPress={() => navigation.navigate("Login")}

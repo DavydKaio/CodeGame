@@ -26,9 +26,7 @@ const LandingScreen = () => {
         <Text className="text-lg font-bold text-app-title-color">
           Olá, Ariano!
         </Text>
-        <Text className="text-sm font-medium text-app-white">
-          Turma APC 2022.2
-        </Text>
+        <Text className="text-sm font-medium text-white">Turma APC 2022.2</Text>
       </View>
 
       <View className="flex items-center mt-5 w-full">
@@ -48,7 +46,7 @@ const LandingScreen = () => {
         />
 
         <TouchableOpacity className="ml-36 mt-5">
-          <Text className="underline text-app-white text-link">
+          <Text className="underline text-white text-link">
             Ver estatísticas
           </Text>
         </TouchableOpacity>
@@ -60,10 +58,10 @@ const LandingScreen = () => {
           onPress={() => navigation.navigate("Battles")}
         >
           <View>
-            <Text className="text-sm font-bold text-app-white">
+            <Text className="text-sm font-bold text-white">
               Vença desafios e evolua
             </Text>
-            <Text className="text-app-white">
+            <Text className="text-white">
               Sozinho ou com amigos, quanto mais questões solucionar, maior será
               seu ranking
             </Text>
@@ -77,22 +75,20 @@ const LandingScreen = () => {
           className="flex items-center py-2 mt-3 rounded-full bg-app-title-color"
           onPress={() => navigation.navigate("Duel")}
         >
-          <Text className="font-bold text-app-white">Comece a Codar</Text>
+          <Text className="font-bold text-white">Comece a Codar</Text>
         </TouchableOpacity>
       </View>
 
       <View className="mt-5">
-        <Text className="text-app-white font-bold mb-2">
-          Disponíveis pra você
-        </Text>
+        <Text className="text-white font-bold mb-2">Disponíveis pra você</Text>
         <View className="flex flex-row">
           <TouchableOpacity>
             <View className="px-3 pt-6 w-40 h-40 bg-app-bg-card mr-7 rounded-lg">
               <Text className="font-bold text-app-title-color">
                 Desafio do dia
               </Text>
-              <Text className="font-bold text-app-white mb-3">+10 pt</Text>
-              <Text className="text-app-white">
+              <Text className="font-bold text-white mb-3">+10 pt</Text>
+              <Text className="text-white">
                 Desafie-se diariamente e melhore sua pontuação para subir de
                 ranking!
               </Text>
@@ -103,8 +99,8 @@ const LandingScreen = () => {
               <Text className="font-bold text-app-title-color">
                 Exercícios da semana
               </Text>
-              <Text className="font-bold text-app-white mb-3">+20 pt</Text>
-              <Text className="text-app-white">
+              <Text className="font-bold text-white mb-3">+20 pt</Text>
+              <Text className="text-white">
                 Resolva desafios propostos pelo professor para ganhar pontuação
                 extra na disciplina
               </Text>
@@ -115,9 +111,9 @@ const LandingScreen = () => {
 
       <View className="mt-4">
         <View className="flex flex-row items-center justify-between">
-          <Text className="font-bold text-app-white">Ranking da sua turma</Text>
+          <Text className="font-bold text-white">Ranking da sua turma</Text>
           <TouchableOpacity>
-            <Text className="text-app-white text-link underline">Ver Mais</Text>
+            <Text className="text-white text-link underline">Ver Mais</Text>
           </TouchableOpacity>
         </View>
 
@@ -127,28 +123,28 @@ const LandingScreen = () => {
               <View className="flex flex-row items-center mr-4">
                 <Text className="font-bold text-app-title-color mr-2">#1</Text>
                 <Player width={38} height={38} />
-                <Text className="font-bold text-app-white ml-2">Ana</Text>
+                <Text className="font-bold text-white ml-2">Ana</Text>
               </View>
             </TouchableOpacity>
             <TouchableOpacity>
               <View className="flex flex-row items-center mr-4">
                 <Text className="font-bold text-app-title-color mr-2">#2</Text>
                 <Player width={38} height={38} />
-                <Text className="font-bold text-app-white ml-2">Você</Text>
+                <Text className="font-bold text-white ml-2">Você</Text>
               </View>
             </TouchableOpacity>
             <TouchableOpacity>
               <View className="flex flex-row items-center mr-4">
                 <Text className="font-bold text-app-title-color mr-2">#3</Text>
                 <Player width={38} height={38} />
-                <Text className="font-bold text-app-white ml-2">Leonardo</Text>
+                <Text className="font-bold text-white ml-2">Leonardo</Text>
               </View>
             </TouchableOpacity>
             <TouchableOpacity>
               <View className="flex flex-row items-center mr-4">
                 <Text className="font-bold text-app-title-color mr-2">#4</Text>
                 <Player width={38} height={38} />
-                <Text className="font-bold text-app-white ml-2">Rodrigo</Text>
+                <Text className="font-bold text-white ml-2">Rodrigo</Text>
               </View>
             </TouchableOpacity>
           </ScrollView>

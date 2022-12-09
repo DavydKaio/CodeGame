@@ -16,7 +16,7 @@ const Preload = () => {
 
   useEffect(() => {
     if (true) {
-      navigation.navigate("OnBoarding1");
+      setTimeout(() => navigation.navigate("OnBoarding1"), 4000);
     }
   }, []);
 

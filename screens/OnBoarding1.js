@@ -14,10 +14,10 @@ const OnBoarding1 = () => {
   return (
     <View className="flex-1 items-center justify-center bg-app-BG">
       <View className="flex-1 items-center justify-end h-screen w-52">
-        <Text className="text-xl font-bold text-center text-app-title-color">
+        <Text className="text-2xl font-bold text-center text-app-title-color">
           Agora você pode codar jogando!
         </Text>
-        <Text className="text-sm text-app-white text-center pt-2.5">
+        <Text className="text-sm text-white text-center pt-2.5">
           Ganhe pontos, suba de nível e aumente suas notas na disciplina!
         </Text>
 
@@ -26,9 +26,7 @@ const OnBoarding1 = () => {
             onPress={() => navigation.navigate("OnBoarding2")}
             className="flex items-center justify-center w-full h-10 rounded-full bg-app-title-color"
           >
-            <Text className="text-base text-app-white font-semibold">
-              Próximo
-            </Text>
+            <Text className="text-base text-white font-semibold">Próximo</Text>
           </TouchableOpacity>
         </View>
 

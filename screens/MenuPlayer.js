@@ -55,30 +55,28 @@ const MenuPlayer = () => {
       <TouchableOpacity>
         <View className="flex flex-row items-center">
           <UserIcon width={22} height={22} color="#FA5075" />
-          <Text className="text-base text-app-white ml-5">Meu perfil</Text>
+          <Text className="text-base text-white ml-5">Meu perfil</Text>
         </View>
       </TouchableOpacity>
 
       <TouchableOpacity>
         <View className="flex flex-row items-center mt-9">
           <CalendarIcon width={22} height={22} color="#FA5075" />
-          <Text className="text-base text-app-white ml-5">Pontos</Text>
+          <Text className="text-base text-white ml-5">Pontos</Text>
         </View>
       </TouchableOpacity>
 
       <TouchableOpacity>
         <View className="flex flex-row items-center mt-9">
           <AdjustmentsVerticalIcon width={22} height={22} color="#FA5075" />
-          <Text className="text-base text-app-white ml-5">Estatística</Text>
+          <Text className="text-base text-white ml-5">Estatística</Text>
         </View>
       </TouchableOpacity>
 
       <TouchableOpacity>
         <View className="flex flex-row items-center mt-9">
           <MapPinIcon width={22} height={22} color="#FA5075" />
-          <Text className="text-base text-app-white ml-5">
-            Descobrir Amigos
-          </Text>
+          <Text className="text-base text-white ml-5">Descobrir Amigos</Text>
         </View>
       </TouchableOpacity>
 
@@ -89,7 +87,7 @@ const MenuPlayer = () => {
             height={22}
             color="#FA5075"
           />
-          <Text className="text-base text-app-white ml-5">Chat</Text>
+          <Text className="text-base text-white ml-5">Chat</Text>
         </View>
       </TouchableOpacity>
 
@@ -97,7 +95,7 @@ const MenuPlayer = () => {
         <View className="flex flex-row items-center mt-9">
           <SunIcon width={22} height={22} color="#FA5075" />
           <View>
-            <Text className="text-base text-app-white ml-5">
+            <Text className="text-base text-white ml-5">
               Mudar para tema claro
             </Text>
             <Text className="ml-5 text-link text-app-gray">
@@ -113,7 +111,7 @@ const MenuPlayer = () => {
       >
         <View className="flex flex-row items-center mt-9">
           <ArrowLeftCircleIcon width={22} height={22} color="#FA5075" />
-          <Text className="text-base text-app-white ml-5">Sair</Text>
+          <Text className="text-base text-white ml-5">Sair</Text>
         </View>
       </TouchableOpacity>
     </View>
