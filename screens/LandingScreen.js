@@ -112,7 +112,7 @@ const LandingScreen = () => {
       <View className="mt-4">
         <View className="flex flex-row items-center justify-between">
           <Text className="font-bold text-white">Ranking da sua turma</Text>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Score")}>
             <Text className="text-white text-link underline">Ver Mais</Text>
           </TouchableOpacity>
         </View>

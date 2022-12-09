@@ -33,7 +33,7 @@ const Battles = () => {
         <View className="flex flex-row items-center rounded-full py-1 pl-4 mt-7 border border-app-title-color">
           <MagnifyingGlassIcon width={24} height={24} color="#FA5075" />
           <TextInput
-            className="pl-4"
+            className="pl-4 text-white"
             placeholder="Procurar usuário..."
             placeholderTextColor={"#808080"}
           />
