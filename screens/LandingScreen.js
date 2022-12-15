@@ -119,7 +119,11 @@ const LandingScreen = () => {
 
         <View className="flex flex-row items-center mt-3">
           <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-            <TouchableOpacity>
+            <TouchableOpacity
+              onPress={() =>
+                navigation.navigate("PlayerInformation", { nome: "Ana" })
+              }
+            >
               <View className="flex flex-row items-center mr-4">
                 <Text className="font-bold text-app-title-color mr-2">#1</Text>
                 <Player width={38} height={38} />
@@ -133,14 +137,22 @@ const LandingScreen = () => {
                 <Text className="font-bold text-white ml-2">Você</Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity>
+            <TouchableOpacity
+              onPress={() =>
+                navigation.navigate("PlayerInformation", { nome: "Leonardo" })
+              }
+            >
               <View className="flex flex-row items-center mr-4">
                 <Text className="font-bold text-app-title-color mr-2">#3</Text>
                 <Player width={38} height={38} />
                 <Text className="font-bold text-white ml-2">Leonardo</Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity>
+            <TouchableOpacity
+              onPress={() =>
+                navigation.navigate("PlayerInformation", { nome: "Rodrigo" })
+              }
+            >
               <View className="flex flex-row items-center mr-4">
                 <Text className="font-bold text-app-title-color mr-2">#4</Text>
                 <Player width={38} height={38} />

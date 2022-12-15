@@ -15,6 +15,7 @@ import Duel from "./screens/Duel";
 import Battles from "./screens/Battles";
 import ChooseOponent from "./screens/ChooseOponent";
 import Score from "./screens/Score";
+import PlayerInformation from "./screens/PlayerInformation";
 
 const Stack = createNativeStackNavigator();
 
@@ -34,6 +35,7 @@ export default function App() {
         <Stack.Screen name="Battles" component={Battles} />
         <Stack.Screen name="ChooseOponent" component={ChooseOponent} />
         <Stack.Screen name="Score" component={Score} />
+        <Stack.Screen name="PlayerInformation" component={PlayerInformation} />
       </Stack.Navigator>
     </NavigationContainer>
   );

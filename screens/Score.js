@@ -56,7 +56,15 @@ const Score = () => {
       </View>
 
       <ScrollView className="flex-col gap-2.5 px-5">
-        <TouchableOpacity className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg">
+        <TouchableOpacity
+          onPress={() =>
+            navigation.navigate("PlayerInformation", {
+              nome: "Ana Carolina",
+              pontos: 352,
+            })
+          }
+          className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg"
+        >
           <View className="flex-row gap-4">
             <View className="flex items-center">
               <ChevronDoubleUpIcon width={14} height={14} color="#0F0" />
@@ -92,7 +100,15 @@ const Score = () => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg">
+        <TouchableOpacity
+          onPress={() =>
+            navigation.navigate("PlayerInformation", {
+              nome: "Leoni",
+              pontos: 350,
+            })
+          }
+          className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg"
+        >
           <View className="flex-row gap-4">
             <View className="flex items-center">
               <ChevronDoubleDownIcon width={14} height={14} color="#F00" />
@@ -110,7 +126,15 @@ const Score = () => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg">
+        <TouchableOpacity
+          onPress={() =>
+            navigation.navigate("PlayerInformation", {
+              nome: "Alan Lins",
+              pontos: 299,
+            })
+          }
+          className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg"
+        >
           <View className="flex-row gap-4">
             <View className="flex items-center">
               <ChevronDoubleUpIcon width={14} height={14} color="#0F0" />
@@ -128,7 +152,15 @@ const Score = () => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg">
+        <TouchableOpacity
+          onPress={() =>
+            navigation.navigate("PlayerInformation", {
+              nome: "Paulo Franco",
+              pontos: 250,
+            })
+          }
+          className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg"
+        >
           <View className="flex-row gap-4">
             <View className="flex items-center">
               <ChevronDoubleDownIcon width={14} height={14} color="#F00" />
@@ -146,7 +178,15 @@ const Score = () => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg">
+        <TouchableOpacity
+          onPress={() =>
+            navigation.navigate("PlayerInformation", {
+              nome: "Di Ferrero",
+              pontos: 240,
+            })
+          }
+          className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg"
+        >
           <View className="flex-row gap-4">
             <View className="flex items-center">
               <ChevronDoubleUpIcon width={14} height={14} color="#0F0" />
@@ -164,7 +204,15 @@ const Score = () => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg">
+        <TouchableOpacity
+          onPress={() =>
+            navigation.navigate("PlayerInformation", {
+              nome: "Cássia",
+              pontos: 100,
+            })
+          }
+          className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg"
+        >
           <View className="flex-row gap-4">
             <View className="flex items-center">
               <ChevronDoubleUpIcon width={14} height={14} color="#0F0" />
@@ -182,7 +230,15 @@ const Score = () => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg">
+        <TouchableOpacity
+          onPress={() =>
+            navigation.navigate("PlayerInformation", {
+              nome: "Adriana",
+              pontos: 99,
+            })
+          }
+          className="flex-row justify-between px-5 items-center h-16 border border-app-title-color rounded-lg"
+        >
           <View className="flex-row gap-4">
             <View className="flex items-center">
               <ChevronDoubleUpIcon width={14} height={14} color="#F00" />

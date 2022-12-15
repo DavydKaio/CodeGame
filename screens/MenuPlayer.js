@@ -48,7 +48,7 @@ const MenuPlayer = () => {
             <StarIcon width={10} height={10} color="#F4C73E" />
             <Text className="text-link text-app-yellow ml-1">Jogador caro</Text>
           </View>
-          <Text className="text-link text-app-green">Online</Text>
+          <Text className="text-link text-green-400">Online</Text>
         </View>
       </View>
 
