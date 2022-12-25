@@ -16,6 +16,7 @@ import Battles from "./screens/Battles";
 import ChooseOponent from "./screens/ChooseOponent";
 import Score from "./screens/Score";
 import PlayerInformation from "./screens/PlayerInformation";
+import ExercisesAlone from "./screens/ExercisesAlone";
 
 const Stack = createNativeStackNavigator();
 
@@ -36,6 +37,7 @@ export default function App() {
         <Stack.Screen name="ChooseOponent" component={ChooseOponent} />
         <Stack.Screen name="Score" component={Score} />
         <Stack.Screen name="PlayerInformation" component={PlayerInformation} />
+        <Stack.Screen name="ExercisesAlone" component={ExercisesAlone} />
       </Stack.Navigator>
     </NavigationContainer>
   );

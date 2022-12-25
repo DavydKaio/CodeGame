@@ -19,14 +19,14 @@ const ChooseOponent = () => {
     <View className="flex-1 bg-app-BG px-5 pt-16">
       <TouchableOpacity
         className="pl-2"
-        onPress={() => navigation.navigate(Duel)}
+        onPress={() => navigation.navigate("Duel")}
       >
         <ArrowLeftIcon width={18} height={18} color="#fff" />
       </TouchableOpacity>
 
       <View className="flex items-center justify-center pt-8">
         <Image
-          source={require("C:/Users/davyd/www/ESDM/CodeGame/assets/sword.png")}
+          source={require("D:/Users/davyd/www/ESDM/CodeGame/assets/sword.png")}
           className="w-52 h-80"
         />
 
