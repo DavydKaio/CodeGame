@@ -6,7 +6,9 @@ import {
   ShieldExclamationIcon,
 } from "react-native-heroicons/outline";
 
-const ExercisesAlone = () => {
+import { RocketLaunchIcon } from "react-native-heroicons/solid";
+
+const ExercisesDuel = () => {
   const navigation = useNavigation();
 
   useLayoutEffect(() => {
@@ -20,7 +22,7 @@ const ExercisesAlone = () => {
       <View className="flex-row gap-3 pt-14 px-5">
         <TouchableOpacity
           className="pt-1.5"
-          onPress={() => navigation.navigate("Duel")}
+          onPress={() => navigation.navigate("LandingScreen")}
         >
           <ArrowLeftIcon width={20} height={20} color="#FFF" />
         </TouchableOpacity>
@@ -35,12 +37,17 @@ const ExercisesAlone = () => {
       </View>
 
       <View className="w-full h-1 bg-gray-400 mt-4 relative">
-        <View className="w-20 h-1 bg-app-title-color absolute"></View>
+        <View className="w-10 h-1 bg-app-title-color absolute"></View>
       </View>
 
-      <View className="px-5 mt-5">
+      <View className="flex-row items-center gap-1 justify-end mt-3 pr-3">
+        <Text className="font-semibold text-white">Jogador 2</Text>
+        <RocketLaunchIcon width={15} height={15} color="#FA5075" />
+      </View>
+
+      <View className="px-5 mt-1">
         <Text className="text-sm font-semibold text-app-title-color">
-          Questão 2/10
+          Questão 1/10
         </Text>
         <Text className="text-sm text-white mt-2">
           Dada uma seqüência de números inteiros não-nulos, seguida por 0,
@@ -115,4 +122,4 @@ const ExercisesAlone = () => {
   );
 };
 
-export default ExercisesAlone;
+export default ExercisesDuel;

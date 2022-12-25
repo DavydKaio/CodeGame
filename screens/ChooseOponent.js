@@ -73,7 +73,10 @@ const ChooseOponent = () => {
         </TouchableOpacity>
       </View>
 
-      <TouchableOpacity className="flex mt-8 mx-16 py-2 rounded-full items-center justify-center bg-app-title-color">
+      <TouchableOpacity
+        onPress={() => navigation.navigate("ExercisesDuel")}
+        className="flex mt-8 mx-16 py-2 rounded-full items-center justify-center bg-app-title-color"
+      >
         <Text className="text-white font-bold">And... FIGHT!</Text>
       </TouchableOpacity>
     </View>

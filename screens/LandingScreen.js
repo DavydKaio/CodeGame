@@ -94,7 +94,9 @@ const LandingScreen = () => {
               </Text>
             </View>
           </TouchableOpacity>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => navigation.navigate("ExercisesDuel")}
+          >
             <View className="px-3 pt-6 w-40 h-40 bg-app-bg-card rounded-lg">
               <Text className="font-bold text-app-title-color">
                 Exercícios da semana
