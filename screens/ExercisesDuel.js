@@ -107,7 +107,10 @@ const ExercisesDuel = () => {
         <TouchableOpacity className="bg-app-title-color py-2 px-12 rounded-full">
           <Text className="font-bold text-white">Anterior</Text>
         </TouchableOpacity>
-        <TouchableOpacity className="bg-app-title-color py-2 px-12 rounded-full">
+        <TouchableOpacity
+          onPress={() => navigation.navigate("DoneScreen")}
+          className="bg-app-title-color py-2 px-12 rounded-full"
+        >
           <Text className="font-bold text-white">Próxima</Text>
         </TouchableOpacity>
       </View>

@@ -18,6 +18,7 @@ import Score from "./screens/Score";
 import PlayerInformation from "./screens/PlayerInformation";
 import ExercisesAlone from "./screens/ExercisesAlone";
 import ExercisesDuel from "./screens/ExercisesDuel";
+import DoneScreen from "./screens/DoneScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -40,6 +41,7 @@ export default function App() {
         <Stack.Screen name="PlayerInformation" component={PlayerInformation} />
         <Stack.Screen name="ExercisesAlone" component={ExercisesAlone} />
         <Stack.Screen name="ExercisesDuel" component={ExercisesDuel} />
+        <Stack.Screen name="DoneScreen" component={DoneScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
